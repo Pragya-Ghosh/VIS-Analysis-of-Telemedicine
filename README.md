@@ -23,33 +23,23 @@ The program was written in PyCharm. You can access the [Program](Program) file h
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ngtyjvaxjVPGCdPp1-BmUKRg6b4Lrhzp)
 
 ## Program Output
-
+![Bar Chart](https://github.com/user-attachments/assets/340d3af3-ae70-4da6-82df-36e68765195c)
 
 ## Methodology
-A line plot is created to represent the weekly reported cases of Influenza Type A and Type B in the US from 2023 to 2024. This plot serves as the foundational visualization, allowing for the observation of both short-term variations and long-term trends.
+A grouped bar chart is plotted to compare the "before" and "after" mortality rates for the telemedicine program for each diagnosis group-- namely [AMI (Acute Myocardial Infarction)](https://en.wikipedia.org/wiki/Myocardial_infarction), [Septic Shock](https://en.wikipedia.org/wiki/Septic_shock), [Ischemic Stroke](https://en.wikipedia.org/wiki/Stroke#Classification) and [Hemorrhagic Stroke](https://en.wikipedia.org/wiki/Stroke#Classification).
 
-Following the line plot, we apply rolling statistical techniques to further analyze the data. The rolling mean is computed to smooth out short-term fluctuations and to highlight underlying trends in the case counts. By using a rolling window, the mean provides a clearer view of the general trend in influenza cases over time.
-
-The rolling standard deviation is calculated to measure the variability of the influenza case counts. This statistic helps to identify periods of increased fluctuation and potential outliers, providing insights into the stability of the case counts and the presence of significant deviations from the trend.
+A legend is added to distinguish between the two sets of bars, and data labels are placed above each bar to display the exact mortality rates.
 
 ## Observation
-For the purpose of this analysis, we will focus exclusively on Graph 2 to have a more detailed understanding of the trends and variability over time.
-
-### Graph 2: Rolling Mean and Standard Deviation
-
-- **Influenza Type A:**
-  - The rolling mean and standard deviation indicate a clear peak around Week 50, with a higher level of variability around the peak.
-  - Variability decreases significantly after the peak, indicating a more consistent decline.
-  - Influenza Type A cases peak earlier (Week 50) and are more numerous compared to Type B.
-    
-- **Influenza Type B:**
-  - The rolling mean shows a gradual increase until the peak around Week 4, with variability increasing towards the peak.
-  - After the peak, the number of cases declines steadily, with less variability compared to the rising phase.
-  - Influenza Type B cases peak later (Week 4) and have fewer cases overall.
+There is a notable change in mortality rates across all diagnoses:
+  - AMI: 47.2% reduction
+  - Septic Shock: 43.0% reduction
+  - Ischemic Stroke: 57.5% reduction
+  - Hemorrhagic Stroke: 57.7% reduction
 
 ## Inference
-- Influenza Type A spreads more rapidly and affects more individuals compared to Type B, possibly due to differences in virulence or transmissibility.
-- Influenza Type B, although less virulent, has a longer duration of spread.
+- There is a significant reduction in mortality rates across all diagnoses when telemedicine is implemented.
+- The most substantial reductions are observed in ischemic stroke and septic shock.
 
 ## Conclusion
 - The data suggests the need for early interventions for Type A to mitigate its rapid spread.
