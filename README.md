@@ -9,7 +9,7 @@ This project analyzes the effectiveness of telemedicine programs in reducing mor
 Evaluating the impact of telemedicine is essential for determining its role in enhancing healthcare accessibility and patient care.
 
 ## Data Source
-The dataset used in this project is titled **“Impact of Telemedicine in Hospital Culture and its Consequences on Quality of Care and Safety”**, obtained from 257 teleconsultations records over a 12-month period. The data is sourced from [SciELO Journals](https://scielo.figshare.com/articles/dataset/Impact_of_telemedicine_in_hospital_culture_and_its_consequences_on_quality_of_care_and_safety/20029458/1?file=35773332).
+The dataset used in this project is titled **“Impact of Telemedicine in Hospital Culture and its Consequences on Quality of Care and Safety”**, obtained from 257 teleconsultations records over a 12-month period. This is sourced from [SciELO Journals](https://scielo.figshare.com/articles/dataset/Impact_of_telemedicine_in_hospital_culture_and_its_consequences_on_quality_of_care_and_safety/20029458/1?file=35773332).
 
 ## Tools and Libraries
 **Programming Language:** Python
