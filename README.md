@@ -39,7 +39,7 @@ There is a notable change in mortality rates across all diagnoses:
 
 ## Inference
 - There is a significant reduction in mortality rates across all diagnoses when telemedicine is implemented.
-- The most substantial reductions are observed in ischemic stroke and septic shock.
+- The most substantial reductions are observed in ischemic stroke and hemorrhagic stroke.
 
 ## Conclusion
 The chart demonstrates the positive impact of telemedicine on reducing mortality rates for several critical diagnoses. This could be one small step for IT, but one giant leap for Healthcare.
